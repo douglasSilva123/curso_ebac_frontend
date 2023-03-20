@@ -1,24 +1,41 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-    <h1>Formulário de cadastro</h1>
-    </header>
-    <br>
-    <form>
-    <label for="text">Nome</label>
-    <input id="text"type="text"><br>
-    <label for="email">E-mail</label>
-    <input id="email" type="email"><br>
-    <label for="password" >Senha</label>
-    <input id="password" type="password"><br> 
-    <button type="submit">Cadastrar</button>
-    </form>
+    <!DOCTYPE html>
+    <html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Exercicío JavaScript</title>
+    </head>
+    <!--ciar uma validação no javaScript, onde o formulário será válido caso o número B seja maior que o numero A.-->
+        <!--Exibir uma mensagem positiva quando o formulário for válido e uma mensagem negativa quando for inválido.-->
+
+    <body>
+   <div>
+    <div class="cabeçalho">
+        <header>
+            <h1><span>EBAC Banking</span></h1>
+            <h2><span>Depósitos</span></h2>
+        </header>    
+    </div>
+     <!--criar um formulário HTML que possua dois campos numérios, campo A e campo B e um botão para submeter o formulário.-->
+    <div class="formulario">
+        <form id="form-deposito">
+            <label for="nome"></label>
+            <input type="text" name="" id="nome" placeholder="Nome completo do beneficiário"><br>
+            <label for="campo-A"></label>
+            <input type="number" name="" id="campo-A" placeholder="Numero da conta"><br>
+            <label for="campo-B"></label>
+            <input type="number" name="" id="campo-B" placeholder="Valor"><br>
+            <label for="Descrição"></label>
+            <input type="text" name="" id="Descrição" placeholder="Descrição(opcional)"><br>
+            
+            <button>Depositar</button>
+        </form>
+    </div>
+
+   </div>
+   <script src="main.js"></script>
 </body>
 </html>
