@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    
+}
+.formulario input{
+    display: flex;
+    align-items: center; 
+    width: 220px;
+   height: auto;
+}
+
+form{
+    margin: auto;
+    width: 220px;
+}
+button{
+    background-color: rgb(54, 221, 54);
+    color: white;
+    border: none;
+    
+    margin: auto;
+    width: 227px;
+    font-size: medium;
+}
